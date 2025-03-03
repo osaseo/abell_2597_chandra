@@ -9,6 +9,9 @@ A2597 is a well-studied cool-core cluster exhibiting multiple **AGN-driven X-ray
 - Identify **potential weak shocks** (\( \mathcal{M} \sim 1.07–1.14 \)) at **~150 kpc scales**.  
 - Examine how **AGN feedback regulates cooling** and fuels black hole accretion via **chaotic cold accretion (CCA)**.  
 
+<div style="text-align:center;">
+    <img src="a2597.png" alt="A multiphase look at the beautiful Abell 2597 cluster of galaxies :)" width="100%">
+</div>
 ---
 
 ## **📂 Jupyter Notebooks (Main Analysis)**
