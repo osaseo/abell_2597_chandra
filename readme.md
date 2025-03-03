@@ -58,4 +58,4 @@ Data products from **spectral fitting**.
 ---
 
 ## **📩 Contact**
-For questions or access to reduced data products not provided here, don't hesistate to email **Osase Omoruyi** at **osase.omoruyi@gmail.com**.  
+For questions or access to reduced data products not provided here, don't hesistate to email me at **osase.omoruyi@gmail.com**.  
