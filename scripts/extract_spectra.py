@@ -7,13 +7,13 @@ from sherpa.astro import ui as sherpa
 
 #---------------------------------------
 #To call the script, use the following command:
-# python extract_spectra.py file_region_name  ####run_name
+# python extract_spectra.py file_region_name run_name
 #---------------------------------------
 
 
 file_region_name = str(sys.argv[1])
-run_name='run_020425_'
-# run_name = str(sys.argv[2])
+date = str(sys.argv[2])
+run_name = f'run_{date}_'
 
 
 who_is_running_this_notebook = "Osase"

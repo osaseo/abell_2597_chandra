@@ -1,6 +1,5 @@
 import ciao_contrib.runtool as ciao
 from sherpa.astro import ui as sherpa
-import os
 import numpy as np
 import logging
 import matplotlib.pyplot as plt
@@ -12,12 +11,6 @@ import astropy.units as u
 
 fit_image_folder = 'fit_images'
 extract_folder_name = 'extracted_spectra'
-
-if not os.path.exists(fit_image_folder):
-    os.makedirs(fit_image_folder)
-    print(f'Made directory {fit_image_folder}')
-else:
-    print(f'Directory {fit_image_folder} already exists')
 
 obsids = [ # '922', # 922 is in FAINT mode and has a terrible flare, let's just ditch it
           '6934', # 56.0 ksec, Clarke ACIS-S3 VFAINT

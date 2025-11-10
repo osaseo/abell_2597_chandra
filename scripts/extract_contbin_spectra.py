@@ -22,7 +22,7 @@ obsids = [ # '922', # 922 is in FAINT mode and has a terrible flare, let's just 
           '20817'] # 62.29
 
 
-def extract_contbin_spectra(region_file, dir='extracted_spectra/'):
+def extract_contbin_spectra(region_file):
     
     for obsid in obsids:
         basename = obsid + '_' + region_file.split('.')[0]
@@ -30,7 +30,7 @@ def extract_contbin_spectra(region_file, dir='extracted_spectra/'):
             ciao.specextract.punlearn()
 
             ciao.specextract(infile=f'{obsid}_repro_flarecleaned_evt2.fits[sky=region({region_file})]',
-                            outroot=dir+basename,
+                            outroot=basename,
                             bkgfile=f'{obsid}_blanksky_evt.fits[sky=region({region_file})]',
                             clobber=True,
                             bkgresp='no',
@@ -38,12 +38,6 @@ def extract_contbin_spectra(region_file, dir='extracted_spectra/'):
         except OSError as e:
             print(f'{e}')
 
-working_dir = 'extracted_spectra'
-if not os.path.exists(working_dir):
-    os.makedirs(working_dir)
-    print(f'Made directory {working_dir}')
-else:
-    print(f'Directory {working_dir} already exists')
 
 region_files = glob.glob('ciao*xaf*.reg') 
 
