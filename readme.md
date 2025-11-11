@@ -1,5 +1,5 @@
 # **Code, Calculations, and Notes for Omoruyi et al. (2025), submitted to ApJ**  
-https://doi.org/10.5281/zenodo.15383913
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15383913.svg)](https://doi.org/10.5281/zenodo.15383913)
 
 This repository houses all of the codes (contained in Jupyter Python notebooks as well as Python scripts) used in our newly published paper utilizing **Chandra X-ray observations** of the **cool core galaxy cluster Abell 2597**, complemented by **archival ALMA, SINFONI and GMRT data**, to analyze the impact of AGN feedback on the cluster's evolution.  
 
