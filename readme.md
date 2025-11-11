@@ -19,7 +19,7 @@ These notebooks contain the **full step-by-step data analysis**, including data 
 
 - **`1_download_clean_data.ipynb`** | Download and clean Chandra data for A2597.  
   - Requires **CIAO 4.16** or newer; data reduction follows standard **ACIS-S procedures**.  
-- **`2_spectral_fitting.ipynb`** | Extract **temperature, density, pressure, entropy** from surface brightness profiles of the large-scale structure and features of interest.  
+- **`2_spectral_fitting.ipynb`** | Extract and create **temperature, density, pressure, and entropy** profiles from surface brightness profiles of the large-scale structure and features of interest.  
 - **`3_spectral_maps.ipynb`** | Generate **high-resolution spectral maps** using [Jeremy Sanders' contour binning code](https://github.com/jeremysanders/contbin).  
 - **`4_pyproffit_profiles.ipynb`** | Extract and fit **spectral profiles** with [`pyproffit`](https://github.com/domeckert/pyproffit).  
 - **`5_spectral_profiles.ipynb`** |  
