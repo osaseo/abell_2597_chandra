@@ -1,10 +1,10 @@
 # **Code, Calculations, and Notes for Omoruyi et al. (2025), submitted to ApJ**  
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15383913.svg)](https://doi.org/10.5281/zenodo.15383913)
 
-This repository houses all of the codes (contained in Jupyter Python notebooks as well as Python scripts) used in our newly published paper utilizing **Chandra X-ray observations** of the **cool core galaxy cluster Abell 2597**, complemented by **archival ALMA, SINFONI and GMRT data**, to analyze the impact of AGN feedback on the cluster's evolution.  
+This repository contains all the code and calculations (in Jupyter notebooks and Python scripts) for our newly submitted paper, Omoruyi et al. (2025), which presents deep **Chandra X-ray observations** of the **cool core galaxy cluster Abell 2597**, complemented by **archival ALMA, SINFONI and GMRT data**.  
 
 ## **AGN Feedback and ICM Evolution in Abell 2597**  
-A2597 is a well-studied cool-core cluster exhibiting  plentiful AGN activity: **X-ray bubbles, cavities**, potential **shock fronts**, and a **multiphase gas reservoir** spanning from X-ray-emitting plasma to cold molecular gas. Our deep **~600 ks Chandra dataset** allows us to:  
+Abell 2597 is a well-studied cool-core cluster exhibiting  plentiful AGN activity: **X-ray bubbles, cavities**, potential **shock fronts**, and a **multiphase gas reservoir** spanning from X-ray-emitting plasma to cold molecular gas. Our deep **~600 ks Chandra dataset** allows us to:  
 - Map **temperature, pressure, and entropy profiles** across the large-scale ICM and interest features within it  
 - Identify **potential weak shocks** (\( \mathcal{M} \sim 1.05–1.14 \)) out to **~150 kpc scales**.  
 - Examine how **AGN feedback regulates cooling** and fuels black hole accretion via **chaotic cold accretion (CCA)**.  
