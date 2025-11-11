@@ -1,5 +1,5 @@
 # **Code, Calculations, and Notes for Omoruyi et al. (2025), submitted to ApJ**  
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15383913.svg)](https://doi.org/10.5281/zenodo.15383913)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17576151.svg)](https://doi.org/10.5281/zenodo.17576151)
 
 This repository contains all the code and calculations (in Jupyter notebooks and Python scripts) for our newly submitted paper, Omoruyi et al. (2025), which presents deep **Chandra X-ray observations** of the **cool core galaxy cluster Abell 2597**, complemented by **archival ALMA, SINFONI and GMRT data**.  
 
