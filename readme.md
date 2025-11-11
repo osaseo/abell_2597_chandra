@@ -29,7 +29,7 @@ These notebooks contain the **full step-by-step data analysis**, including data 
 
 ---
 
-## ** `scripts/` – Spectral Extraction & Fitting Codes**  
+## **`scripts/` – Spectral Extraction & Fitting Codes**  
 Standalone Python scripts used for **extracting spectra, fitting spectra, and generating the spectral maps**. Follow the notebooks to learn how to use them.
 - **`create_spectral_maps.py`** → Generate spectral maps of **temperature, entropy**, and **pressure**.  
 - **`extract_contbin_spectra.py`** → Extract spectra from **contour-binned regions**.  
